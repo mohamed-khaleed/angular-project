@@ -1,0 +1,35 @@
+.line {
+  width: 40%;
+  height: 2px;
+  background-color: #976d4c;
+  margin: auto;
+}
+.card-img-container img {
+  height: 100% !important;
+  object-fit: cover;
+  
+}
+.product-card {
+  width: 80%;
+  margin: auto;
+ 
+}
+.card-img-container {
+  height: 300px;
+}
+.card-btn {
+  background-color: #976d4c ;
+  color: #faf6ed;
+  border: none;
+  padding: 2px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+span {
+  color: #b69982;
+}
+

@@ -1,0 +1,21 @@
+.learn-more-bg {
+  background-image: url("../../../assets/images/fleur-kaan-e7jpGYe7OtU-unsplash.jpg");
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box-height {
+  height: 35rem;
+  background-color: #f7f0e6;
+}
+.learn-more-btn{
+  background-color: #976d4c;
+  color: #faf6ed;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-size: 1rem;
+  margin-top: 20px;
+  text-transform: uppercase;
+}

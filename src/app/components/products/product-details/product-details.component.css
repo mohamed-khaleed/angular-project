@@ -1,0 +1,15 @@
+.product-img{
+  object-fit: cover;
+}
+button{
+  background-color: #976d4c;
+  color: #faf6ed;
+  border: none;
+  padding: 2px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+}

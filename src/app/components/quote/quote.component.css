@@ -1,0 +1,13 @@
+.quote-sec{
+  height:400px;
+  background-color: rgb(234, 227, 217);
+}
+.quote-sec i {
+  font-size: 0.8rem;
+  color: #756461;
+
+}
+.quote-sec span {
+  
+  color: #756461;
+}

@@ -1,0 +1,39 @@
+form {
+  background-color: #faf6ed;
+  padding: 20px;
+  
+  height: 100%;
+  
+}
+#form-section {
+  background-color: #976d4c;
+  padding: 40px;
+  width: 80%;
+  border-radius: 20px;
+  margin: auto;
+}
+#form-section h2 {
+  color: #faf6ed;
+  text-align: center;
+
+}
+#form-section button {
+  background-color: #976d4c;
+  color: #faf6ed;
+  border: none;
+  padding: 2px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.image-container{
+  background-image: url(../../../../assets/images/17163800-im-from-honey-mask-39_cover_1499x1000.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}

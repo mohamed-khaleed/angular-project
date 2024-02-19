@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cormorant Garamond", serif;
+  background-color: #faf6ed;
+  color: #523d39;
+}
+
+.nav-font-color {
+  color: #976d4c;
+}
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #976d4c !important;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+} */
+.active-nav {
+  color: #faf6ed !important;
+  background-color: #976d4c;
+  border-radius: 5px;
+}

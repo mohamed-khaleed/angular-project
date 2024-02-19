@@ -1,0 +1,27 @@
+<section class="py-5 products-sec w-75 m-auto rounded  mt-5">
+  <h1 class="text-center mb-5">welcome to our products page</h1>
+  <table class="table w-75 m-auto">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">PRODUCT NAME</th>
+        <th scope="col">PRODUCT PRICE</th>
+        <th scope="col">PRODUCT QUANTITY</th>
+        <th scope="col">ACTIONS</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of products">
+        <th scope="row">{{product.id}}</th>
+        <td>{{product.name}}</td>
+        <td>{{product.price}}</td>
+        <td>{{product.quantity}}</td>
+        <td>
+          <i [routerLink]="['/product',product.id,'edit']"  class="fa-solid fa-pen-to-square text-primary mx-3"></i
+          ><i  (click)="deleteProduct(product.id)" class="fa-solid fa-trash text-danger mx-3"></i
+          ><i  [routerLink]="['/product',product.id]" class="fa-solid fa-eye text-secondary mx-3"></i>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>

@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "name": "Product 4545",
+      "price": 10,
+      "photoPath": "assets/images/I'm From Mugwort Mask Review 1.jpg",
+      "quantity": 10,
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "photoPath": "assets/images/imfrom-mugwort-essence-thumbnail-04-concept1_540x.webp",
+      "quantity": 1,
+      "name": "Product 2",
+      "price": 70
+    },
+    {
+      "id": "3",
+      "photoPath": "assets/images/Rice-Glow-Set-thumbnail-04-concpet2_dfa39669-fb76-45b7-8ddf-616033353af3_540x.webp",
+      "quantity": 20,
+      "name": "Product 3",
+      "price": 100
+    },
+    {
+      "id": "4",
+      "photoPath": "assets/images/I_MFROM_HoneyMask120ml_4_800x.webp",
+      "quantity": 15,
+      "name": "Product 4",
+      "price": 30
+    },
+    {
+      "id": "1ad0",
+      "name": "moo",
+      "price": 45,
+      "photoPath": "assets/images/I'm From Mugwort Mask Review 1.jpg",
+      "quantity": 45
+    }
+  ]
+}

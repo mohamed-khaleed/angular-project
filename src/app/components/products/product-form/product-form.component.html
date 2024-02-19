@@ -1,0 +1,97 @@
+<section id="form-section">
+  <h2 class="text-capitalize mb-3">
+    {{ id == 0 ? "you can place your product here !" : "edit your product" }}
+  </h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 ">
+        <form
+          [formGroup]="productForm"
+          (submit)="performAnAction($event)"
+          class="row align-items-center "
+        >
+          <div class="col-12">
+            <label for="inputTitle" class="form-label text-capitalize"
+              >product title</label
+            >
+            <input
+              formControlName="name"
+              type="text"
+              class="form-control"
+              id="inputTitle"
+            />
+            <ng-container *ngIf="getName.touched">
+              <div
+                *ngIf="getName.hasError('required')"
+                id="emailHelp"
+                class="form-text text-danger"
+              >
+                Name is Required
+              </div>
+              <div
+                *ngIf="getName.hasError('minlength')"
+                id="emailHelp"
+                class="form-text text-danger"
+              >
+                Name length must be greater than 3
+              </div>
+            </ng-container>
+          </div>
+
+          <div class="col-12">
+            <label for="inputPrice" class="form-label text-capitalize"
+              >product price</label
+            >
+            <input
+              type="number"
+              formControlName="price"
+              class="form-control"
+              id="inputPrice"
+            />
+            <ng-container *ngIf="getPrice.touched">
+              <div
+                *ngIf="getPrice.hasError('required')"
+                class="form-text text-danger"
+              >
+                Price is Required
+              </div>
+            </ng-container>
+          </div>
+          <div class="col-12">
+            <label for="inputQuantity" class="form-label text-capitalize"
+              >product quantity</label
+            >
+            <input
+              type="number"
+              formControlName="quantity"
+              class="form-control"
+              id="inputQuantity"
+            />
+            <ng-container *ngIf="getQuantity.touched">
+              <div
+                *ngIf="getQuantity.hasError('required')"
+                class="form-text text-danger"
+              >
+                Quantity is Required
+              </div>
+            </ng-container>
+          </div>
+
+          <div class="col-12">
+            <button type="submit" class="btn card-btn">
+              {{ id == 0 ? "add product" : "edit product" }}
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-6 bg-warning image-container ">
+        <!-- <div class="img-container bg-danger">
+          <img
+            src="assets/images/pexels-mohammadreza-babaei-15327092.jpg"
+            class="w-100 form-img"
+          />
+        </div> -->
+      </div>
+    </div>
+  </div>
+</section>

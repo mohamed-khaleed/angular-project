@@ -1,0 +1,31 @@
+<section class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <img
+          [src]="product?.photoPath"
+          class="product-img rounded"
+          width="500px"
+          height="500px"
+          alt="product image"
+        />
+      </div>
+      <div class="col-md-6 d-flex align-items-center">
+        <div>
+          <h2 class="display-2">{{ product?.name }}</h2>
+          <p class="h3">Price: <span class="h1"> {{ product?.price }}</span> $</p>
+          <p class="h2">Quantity: <span class="h1"> {{ product?.quantity }}</span></p>
+          <p class="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            modi eos atque deserunt cum quibusdam voluptas ullam, delectus
+            repellat, ratione molestiae nihil assumenda, aut necessitatibus ea a
+            iusto odio labore fugiat aliquid facere pariatur harum ipsa? Odio
+            repellendus natus tempora fuga reprehenderit doloremque culpa enim
+            non voluptatem? Dolore, dicta officia!
+          </p>
+          <button class="btn">add to cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

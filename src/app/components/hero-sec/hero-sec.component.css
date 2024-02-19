@@ -1,0 +1,16 @@
+header {
+  background-color: #f1e9da;
+  color: #976d4c;
+  height: 100vh;
+}
+.cursol-img {
+  object-fit: cover;
+  border-radius: 20px;
+}
+h1 {
+  font-family: 'Cormorant Garamond', serif;
+
+}
+p{
+  color: #ac8a70;
+}
